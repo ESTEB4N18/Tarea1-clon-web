@@ -1,5 +1,5 @@
-Nombre: Esteban Gerardo Aguilar Alvarado 
-Sitio clonado tipo blog
+- Nombre: Esteban Gerardo Aguilar Alvarado 
+- Sitio clonado tipo blog
 
 
 # Comparacion 
