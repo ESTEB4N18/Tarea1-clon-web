@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clon de una sección tipo blog usando solo HTML y CSS puro.">
+  <title>Travel Stories - Clon Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+   
+  </header>
+
+  <main class="container page-layout">
+    <section id="destacados" class="hero-grid">
+      <article class="hero-card hero-card--overlay">
+        <img src="img/image1.webp" alt="Montañas y lago turquesa en un destino turístico." loading="lazy">
+        <div class="hero-card__content">
+          <p class="tag tag--violet">Lifestyle</p>
+          <h2>The Most Popular Places to Visit in the World</h2>
+          <p class="hero-meta">Top Places</p>
+        </div>
+      </article>
+
+      <article class="hero-card hero-card--overlay">
+        <img src="img/image.png" alt="Persona haciendo ejercicio frente a un cielo azul." loading="lazy">
+        <div class="hero-card__content">
+          <p class="tag tag--red">Health</p>
+          <h2>Does Exercise Help with your Productivity</h2>
+          <p class="hero-meta">Health Chat</p>
+        </div>
+      </article>
+
+      <article class="hero-card hero-card--overlay">
+        <img src="img/imagen3.jpg" alt="Mano sosteniendo un control rojo relacionado con videojuegos." loading="lazy">
+        <div class="hero-card__content">
+          <p class="tag tag--yellow">Gaming</p>
+          <h2>Can Playing Video Games Help Reduce Stress?</h2>
+          <p class="hero-meta">Game Play</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="featured-post" aria-label="Artículo destacado">
+      <article>
+        <img class="featured-post__image" src="img/Barco.avif" alt="Vista desde una lancha sobre un lago rodeado de montañas." loading="lazy">
+        <p class="post-category">Travel</p>
+        <h2 class="featured-post__title">Where to Visit on Your Next Vacation</h2>
+        <p class="post-author">Written by Jane Doe on December 02, 2019</p>
+        <p class="featured-post__text">There are thousands of places you can visit on your next vacation. In this post we'll show you the top destinations to consider for your next adventure...</p>
+        <a class="read-more" href="#"><span>Continue Reading</span> 🡕</a>
+      </article>
+    </section>
+
+    <aside class="sidebar" aria-label="Barra lateral">
+      <section id="newsletter" class="widget newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>No Spam. Only one email per week.</p>
+        <form action="#" method="post">
+          <label class="sr-only" for="first-name">Nombre</label>
+          <input id="first-name" name="first-name" type="text" placeholder="First Name">
+
+          <label class="sr-only" for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" placeholder="Email Address">
+
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <section class="widget categories">
+        <h2>Categories</h2>
+        <ul>
+          <li><span>Lifestyle</span><strong>32</strong></li>
+          <li><span>Health</span><strong>41</strong></li>
+          <li><span>Gaming</span><strong>27</strong></li>
+          <li><span>Travel</span><strong>21</strong></li>
+          <li><span>Food</span><strong>15</strong></li>
+          <li><span>Business</span><strong>28</strong></li>
+        </ul>
+      </section>
+
+      <section class="widget recent-posts">
+        <h2>Recent Posts</h2>
+
+        <article class="recent-post">
+          <img src="img/Montaña.jpg" alt="Paisaje verde de montaña para artículo reciente." loading="lazy">
+          <div>
+            <h3>Top Destinations to Visit in the World</h3>
+            <p>January 02, 2021</p>
+          </div>
+        </article>
+
+        <article class="recent-post">
+          <img src="img/Gafas.jpg" alt="Retrato con iluminación azul usado para artículo reciente." loading="lazy">
+          <div>
+            <h3>Experience the Future of the 3d Gaming Experience</h3>
+            <p>January 04, 2021</p>
+          </div>
+        </article>
+
+        <article class="recent-post">
+          <img src="img/Bosque.jpg" alt="Paisaje de lago y montañas usado para artículo reciente." loading="lazy">
+          <div>
+            <h3>Take a Trip to The End of The World</h3>
+            <p>January 05, 2021</p>
+          </div>
+        </article>
+      </section>
+    </aside>
+
+    <section id="articulos" class="posts-grid" aria-label="Artículos secundarios">
+      <article class="mini-post">
+        <img src="img/Fogata.png" alt="Grupo de amigos reunidos en la playa alrededor de una fogata." loading="lazy">
+        <h3>Time for the Beach and Friends</h3>
+        <p>Many people live so close to amazing scenery, yet they rarely take advantage of it...</p>
+        <a class="read-more" href="#"><span>Continue Reading</span> 🡕</a>
+      </article>
+
+      <article class="mini-post">
+        <img src="img/Muelle.jpg" alt="Muelle sobre un lago durante la noche con un cielo estrellado." loading="lazy">
+        <h3>Are you Ready for an Experience?</h3>
+        <p>Check out these awesome places you'll want to visit as you set your next route...</p>
+        <a class="read-more" href="#"><span>Continue Reading</span> 🡕</a>
+      </article>
+
+      <article class="mini-post">
+        <img src="img/Niños.avif" alt="Niños jugando en un bosque con mucha vegetación." loading="lazy">
+        <h3>Take Me Back in Time</h3>
+        <p>How nice would that be to go back in time and enjoy the youth...</p>
+        <a class="read-more" href="#"><span>Continue Reading</span> 🡕</a>
+      </article>
+
+      <article class="mini-post">
+        <img src="img/Runner.jpeg" alt="Atleta preparándose para entrenar en un gimnasio." loading="lazy">
+        <h3>Here are the Best Ways to Train</h3>
+        <p>Learn about the best ways to train to get the most of your workout...</p>
+        <a class="read-more" href="#"><span>Continue Reading</span> 🡕</a>
+      </article>
+    </section>
+
+    <section class="more-section">
+      <a class="button-more" href="#">Load More Articles</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    
+  </footer>
+</body>
+</html>
